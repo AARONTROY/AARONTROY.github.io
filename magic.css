@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    background-color: dimgray;
+    font: 1em sans-serif;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.content{
+    font: 1em sans-serif;
+}
+.lecture{
+    font: 1em sans-serif;
+}
+.header{
+    background-color: aqua;
+}
+.verify{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+.verify > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    height: 24px;
+    
+    transition: border-bottom 0.5s;
+}
+.verify a{
+    color: darkblue;
+    text-decoration: none;
+    transition: color 1s;
+}
+.left_side:hover{
+    border-bottom: 1px solid black;
+}
+.left_side a:hover{
+    color: red;
+}
+.right_side:hover{
+    border-bottom: 1px solid black;
+}
+.right_side a:hover{
+    color: red;
+}
+.centre:hover{
+    border-bottom: 1px solid black;
+}
+.centre a:hover{
+    color: red;
+}
+.right{
+    text-align: right;
+}
